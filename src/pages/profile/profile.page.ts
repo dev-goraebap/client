@@ -24,5 +24,25 @@ export class ProfilePage {
                 console.log(res);
             })
         ).subscribe();
+        this.authService.getProfile().pipe(
+            tap((res: ProfileResultDTO) => {
+                console.log(res);
+            })
+        ).subscribe();
+        this.authService.getProfile().pipe(
+            tap((res: ProfileResultDTO) => {
+                console.log(res);
+            })
+        ).subscribe();
+        this.authService.getProfile().pipe(
+            tap((res: ProfileResultDTO) => {
+                console.log(res);
+            })
+        ).subscribe();
+        this.authService.getProfile().pipe(
+            tap((res: ProfileResultDTO) => {
+                console.log(res);
+            })
+        ).subscribe();
     }
 }
